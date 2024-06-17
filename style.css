@@ -14,14 +14,13 @@ body {
 }
 .MainLabel {
   display: flex;
-  justify-content: center;
-  font-size: 70px;
   width: 95vw;
   height: 15vh;
+  font-size: 70px;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  margin-bottom: 10vh;
+  margin-bottom: 4vh;
   border-radius: 40px;
   background-color: rgb(60, 184, 168);
 }
@@ -73,7 +72,6 @@ body {
   width: 65vw;
   height: 8vh;
   border-radius: 30px;
-  background: rgb(112, 214, 123);
   background: linear-gradient(
     90deg,
     rgba(112, 214, 123, 1) 0%,
@@ -92,6 +90,7 @@ body {
 }
 .result {
   width: 50vw;
+  height: 75vh;
   background: rgb(112, 214, 123);
   background: linear-gradient(
     90deg,
@@ -100,24 +99,26 @@ body {
   );
   display: flex;
   margin: 0 auto;
-
   padding: 1vw;
   justify-content: center;
   border-radius: 30px;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 10vw;
 }
 
 .result-img {
-  height: 25vh;
-  margin-bottom: 10px;
+  border-radius: 15px;
+  width: 15vw;
+  height: auto;
+  margin-bottom: 1vw;
 }
 
 .result-title {
-  font-size: 6vh;
+  font-size: 7vh;
 }
 .result-text {
-  margin-bottom: 15px;
+  margin-bottom: 1vw;
   font-size: 3vh;
 }
 .hidden {
@@ -183,15 +184,46 @@ body {
   background-size: cover;
   background-position: center;
 }
-.result-img {
-  width: 31vh;
-  height: auto;
-}
+
 @media screen and (max-width: 950px) {
   .MainLabel {
     font-size: 30px;
   }
+  .grid-conteiner-4 {
+    grid-template-columns: 1fr 1fr;
+  }
   .result-text {
     font-size: 16px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .question-title {
+    font-size: 23px;
+  }
+  .B-Answer {
+    height: 15vh;
+    width: 30vw;
+    font-size: 16px;
+    padding: 5px;
+  }
+  .result-text {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .result-title {
+    margin-top: 0;
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .result-img {
+    width: 40vw;
+    margin-bottom: 10px;
+  }
+  .result {
+    justify-content: space-around;
+    width: 80vw;
+    height: 60vh;
+    margin-top: 12vh;
+    padding: 5vw;
   }
 }
