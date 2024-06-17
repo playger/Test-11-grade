@@ -33,7 +33,6 @@ body {
   font-weight: bold;
   font-family: "Noto Serif", serif;
   margin: 0 auto;
-  top: 35vh;
   display: block;
   color: rgb(44, 0, 0);
   background-color: rgb(155, 239, 193);
@@ -45,12 +44,11 @@ body {
 .B-Answer {
   width: 20vw;
   height: 15vh;
-  font-size: 24px;
+  font-size: 2vw;
   font-weight: bold;
   font-family: "Noto Serif", serif;
   margin: 0 auto;
   border: solid 3px;
-  top: 200px;
   display: block;
   cursor: pointer;
   color: rgb(44, 0, 0);
@@ -68,12 +66,12 @@ body {
 }
 .question-title {
   font-size: 6vh;
-  margin-bottom: 35px;
+  margin-bottom: 1vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 700px;
-  height: 150px;
+  width: 65vw;
+  height: 8vh;
   border-radius: 30px;
   background: rgb(112, 214, 123);
   background: linear-gradient(
