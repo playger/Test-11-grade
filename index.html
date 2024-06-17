@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test From 11 grate</title>
+    
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Honk&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="MainLabel">Тест Хто ти з 11-класників</h1>
+
+    <div class="Main">
+      <button class="buttonStart" id="game-start">Start</button>
+    </div>
+
+    <div class="question first hidden">
+      <h1 class="question-title">Улюблений Предмет</h1>
+      <div class="grid-conteiner">
+        <button class="B-Answer" value="1">Архітектура</button>
+        <button class="B-Answer" value="2">Економіка</button>
+        <button class="B-Answer" value="3">Математика</button>
+        <button class="B-Answer" value="4">Англійська Мова</button>
+        <button class="B-Answer" value="5">Біологія</button>
+        <button class="B-Answer" value="6">Географія</button>
+        <button class="B-Answer" value="7">Обід</button>
+        <button class="B-Answer" value="8">Історія</button>
+        <button class="B-Answer" value="9">Фізкультура</button>
+        <button class="B-Answer" value="10">Інформатика</button>
+        <button class="B-Answer" value="11">Українська Мова</button>
+        <button class="B-Answer" value="12">Дизайн</button>
+      </div>
+    </div>
+
+    <div class="question hidden">
+      <h1 class="question-title">Яке твоє хоббі</h1>
+      <div class="grid-conteiner">
+        <button class="B-Answer" value="1">Великий Теніс</button>
+        <button class="B-Answer" value="2">Стендап</button>
+        <button class="B-Answer" value="3">Дивитися Фільми</button>
+        <button class="B-Answer" value="4">Верхова їзда</button>
+        <button class="B-Answer" value="5">Читання</button>
+        <button class="B-Answer" value="6">Плавання</button>
+        <button class="B-Answer" value="7">Геймінг</button>
+        <button class="B-Answer" value="8">Писемництво</button>
+        <button class="B-Answer" value="9">Автомобілі</button>
+        <button class="B-Answer" value="10">Програмування</button>
+        <button class="B-Answer" value="11">Малювання</button>
+        <button class="B-Answer" value="12">Шопінг</button>
+      </div>
+    </div>
+
+    <div class="question hidden">
+      <h1 class="question-title">Улюблена Їжа</h1>
+      <div class="grid-conteiner">
+        <button class="B-Answer" value="1">Суші</button>
+        <button class="B-Answer" value="2">Лазанья</button>
+        <button class="B-Answer" value="3">Борщ</button>
+        <button class="B-Answer" value="4">Паста</button>
+        <button class="B-Answer" value="5">Мамина</button>
+        <button class="B-Answer" value="6">Червоний Бархат Торт</button>
+        <button class="B-Answer" value="7">Морозиво</button>
+        <button class="B-Answer" value="8">Боул</button>
+        <button class="B-Answer" value="9">Хачапурі</button>
+        <button class="B-Answer" value="10">Піца Мексикана</button>
+        <button class="B-Answer" value="11">Карбонара</button>
+        <button class="B-Answer" value="12">Салат</button>
+      </div>
+    </div>
+
+    <div class="question hidden">
+      <h1 class="question-title">Улюблений Колір</h1>
+      <div class="grid-conteiner">
+        <button class="B-Answer" id="Dark-Blue" value="1">Темно-синій</button>
+        <button class="B-Answer" id="Green" value="2">Зелений</button>
+        <button class="B-Answer" id="Dark-Green" value="3">
+          Темно-Зелений
+        </button>
+        <button class="B-Answer" id="Light-BLUE" value="4">Блакитний</button>
+        <button class="B-Answer" id="Brown" value="5">Коричневий</button>
+        <button class="B-Answer" id="Grey" value="6">Сірий</button>
+        <button class="B-Answer" id="Pink" value="7">Рожевий</button>
+        <button class="B-Answer" id="White" value="8">Білий</button>
+        <button class="B-Answer" id="Dark-Black" value="9">Темно-Чорний</button>
+        <button class="B-Answer" id="Energy-Green" value="10">
+          Електро-Зелений
+        </button>
+        <button class="B-Answer" id="Blue" value="11">Синій</button>
+        <button class="B-Answer" id="Black" value="12">Чорний</button>
+      </div>
+    </div>
+
+    <div class="question hidden">
+      <h1 class="question-title">Улюблена Країна</h1>
+      <div class="grid-conteiner">
+        <button class="B-Answer" value="1">Великобританія</button>
+        <button class="B-Answer" value="2">США Флорида</button>
+        <button class="B-Answer" value="3">Монако</button>
+        <button class="B-Answer" value="4">Франція</button>
+        <button class="B-Answer" value="5">США</button>
+        <button class="B-Answer" value="6">ОАЕ</button>
+        <button class="B-Answer" value="7">Іспания</button>
+        <button class="B-Answer" value="8">Канада</button>
+        <button class="B-Answer" value="9">США Маямі</button>
+        <button class="B-Answer" value="10">Данія</button>
+        <button class="B-Answer" value="11">Швейцарія</button>
+        <button class="B-Answer" value="12">Італія</button>
+      </div>
+    </div>
+
+    <div class="question hidden">
+      <h1 class="question-title">Улюблена тварина</h1>
+      <div class="grid-conteiner">
+        <button class="B-Answer" value="1">Тигр</button>
+        <button class="B-Answer" value="2">Ваша власна кішка</button>
+        <button class="B-Answer" value="3">Зайчик</button>
+        <button class="B-Answer" value="4">Собака</button>
+        <button class="B-Answer" value="5">Кит</button>
+        <button class="B-Answer" value="6">Кішка</button>
+        <button class="B-Answer" value="7">Змія</button>
+        <button class="B-Answer" value="8">Сорока</button>
+        <button class="B-Answer" value="9">Кажан</button>
+        <button class="B-Answer" value="10">Ківі</button>
+        <button class="B-Answer" value="11">Кінь</button>
+        <button class="B-Answer" value="12">Мальтіпу</button>
+      </div>
+    </div>
+
+    <div class="question hidden">
+      <h1 class="question-title">Улюблена пора року</h1>
+      <div class="grid-conteiner-4">
+        <button class="B-Answer" value="7">Зима</button>
+        <button class="B-Answer" value="1 4 5 9 10 12">Літо</button>
+        <button class="B-Answer" value="3 8 2 6 11">Весна</button>
+        <button class="B-Answer" value="">Осінь</button>
+      </div>
+    </div>
+
+    <div class="question hidden">
+      <h1 class="question-title">Улюблений персонаж</h1>
+      <div class="grid-conteiner">
+        <button class="B-Answer" value="1">Олаф</button>
+        <button class="B-Answer" value="2">Багз Банні</button>
+        <button class="B-Answer" value="3">Лунтик</button>
+        <button class="B-Answer" value="4">Принцеса Аврора</button>
+        <button class="B-Answer" value="5">Принцеса Тіана</button>
+        <button class="B-Answer" value="6">Губка Боб</button>
+        <button class="B-Answer" value="7">Валлі</button>
+        <button class="B-Answer" value="8">Рапунцель</button>
+        <button class="B-Answer" value="9">Скрудж Макдак</button>
+        <button class="B-Answer" value="10">Астерікс</button>
+        <button class="B-Answer" value="11">Блискавка Маквін</button>
+        <button class="B-Answer" value="12">Барбі</button>
+      </div>
+    </div>
+
+    <div class="question hidden">
+      <h1 class="question-title">Твій улюблений вчитель</h1>
+      <div class="grid-conteiner">
+        <button class="B-Answer" value="1">Олеся Володимирівна</button>
+        <button class="B-Answer" value="2">Ви не знаєте</button>
+        <button class="B-Answer" value="3">Олена Павлишак</button>
+        <button class="B-Answer" value="4">Пані Віра</button>
+        <button class="B-Answer" value="5">Пані Світлана</button>
+        <button class="B-Answer" value="6">Олександра Валеріївна</button>
+        <button class="B-Answer" value="7">Вусач зі столовки</button>
+        <button class="B-Answer" value="8">Пані Ірина (Інформатика)</button>
+        <button class="B-Answer" value="9">Пан Роман</button>
+        <button class="B-Answer" value="10">Олена Лисенко</button>
+        <button class="B-Answer" value="11">Пан Юрій</button>
+        <button class="B-Answer" value="12">
+          Пані Анастасія (Хореографія)
+        </button>
+      </div>
+    </div>
+
+    <div class="question hidden">
+      <h1 class="question-title">О котрій ви приїжджаєте</h1>
+      <div class="grid-conteiner">
+        <button class="B-Answer" value="1">8:25</button>
+        <button class="B-Answer" value="2">9:00</button>
+        <button class="B-Answer" value="3">8:30</button>
+        <button class="B-Answer" value="4">8:40</button>
+        <button class="B-Answer" value="5">8:00</button>
+        <button class="B-Answer" value="6">8:49</button>
+        <button class="B-Answer" value="7">9:01</button>
+        <button class="B-Answer" value="8">8:35</button>
+        <button class="B-Answer" value="9">8:50</button>
+        <button class="B-Answer" value="10">8:10</button>
+        <button class="B-Answer" value="11">8:48</button>
+        <button class="B-Answer" value="12">8:45</button>
+      </div>
+    </div>
+
+    <div class="question hidden">
+      <h1 class="question-title">Улюблена марка машини</h1>
+      <div class="grid-conteiner">
+        <button class="B-Answer" value="1">Порш</button>
+        <button class="B-Answer" value="2">Каділак</button>
+        <button class="B-Answer" value="3">Ламборгіні</button>
+        <button class="B-Answer" value="4">Бeнтлі</button>
+        <button class="B-Answer" value="5">Мерседес</button>
+        <button class="B-Answer" value="6">МакЛарен</button>
+        <button class="B-Answer" value="7">Автобус Богдан</button>
+        <button class="B-Answer" value="8">Астон Мартін</button>
+        <button class="B-Answer" value="9">БМВ</button>
+        <button class="B-Answer" value="10">Ренджровер</button>
+        <button class="B-Answer" value="11">Інфініті</button>
+        <button class="B-Answer" value="12">Лексус</button>
+      </div>
+    </div>
+
+    <div class="result hidden">
+      <h1 class="result-title">Ім'я</h1>
+      <p class="result-text">Опис</p>
+      <img src="./Students/Smyrnow.jpeg" class="result-img" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

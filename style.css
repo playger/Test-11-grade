@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Noto Serif", serif;
+  background-image: url("./liko_school_cover.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 10px;
+}
+.MainLabel {
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+  width: 95vw;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 40px;
+  margin-bottom: 2px;
+  background-color: rgb(60, 184, 168);
+}
+
+.buttonStart {
+  width: 700px;
+  height: 300px;
+  font-size: 10vh;
+  font-weight: bold;
+  font-family: "Noto Serif", serif;
+  margin: 0 auto;
+  top: 200px;
+  display: block;
+  color: rgb(44, 0, 0);
+  background-color: rgb(155, 239, 193);
+  border-radius: 30px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.B-Answer {
+  width: 20vw;
+  height: 15vh;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Noto Serif", serif;
+  margin: 0 auto;
+  border: solid 3px;
+  top: 200px;
+  display: block;
+  cursor: pointer;
+  color: rgb(44, 0, 0);
+  background-color: rgb(155, 239, 193);
+  margin-bottom: 2px;
+  border-radius: 10px;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+.question-title {
+  font-size: 6vh;
+  margin-bottom: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  height: 150px;
+  border-radius: 30px;
+  background: rgb(112, 214, 123);
+  background: linear-gradient(
+    90deg,
+    rgba(112, 214, 123, 1) 0%,
+    rgba(105, 187, 203, 1) 100%
+  );
+}
+.grid-conteiner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.grid-conteiner-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+.result {
+  width: 50vw;
+  background: rgb(112, 214, 123);
+  background: linear-gradient(
+    90deg,
+    rgba(112, 214, 123, 1) 0%,
+    rgba(105, 187, 203, 1) 100%
+  );
+  display: flex;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 15px;
+  justify-content: center;
+  border-radius: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result-img {
+  height: 25vh;
+  margin-bottom: 10px;
+}
+
+.result-title {
+  font-size: 6vh;
+}
+.result-text {
+  margin-bottom: 15px;
+  font-size: 3vh;
+}
+.hidden {
+  display: none;
+}
+#Dark-Blue {
+  background-color: darkblue;
+  color: white;
+}
+#Green {
+  background-color: Green;
+}
+#Dark-Green {
+  background-color: darkgreen;
+}
+#Light-BLUE {
+  background-color: lightskyblue;
+}
+#Brown {
+  background-color: brown;
+}
+#Grey {
+  background-color: Grey;
+}
+#Pink {
+  background-color: Pink;
+}
+#White {
+  background-color: White;
+}
+#Dark-Black {
+  background-color: black;
+  color: white;
+}
+#Energy-Green {
+  background-color: #00cc99;
+}
+#Blue {
+  background-color: blue;
+  color: white;
+}
+#Black {
+  background-color: rgb(39, 39, 39);
+  color: white;
+}
+#winter {
+  background-image: url("./Winter.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#summer {
+  background-image: url("./Summer.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#spring {
+  background-image: url("./Spring.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#Autumn {
+  background-image: url("./Autumn.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+.result-img {
+  width: 31vh;
+  height: auto;
+}
